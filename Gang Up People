@@ -1,75 +1,44 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
-
     Title = "Notification";
-
     Text = "Subscribe To Viper BG";
-
     Duration = 15;
-
 }) 
 
 local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
-
-	if cht:match("ComingSoon") then  elseif cht:match(";mafbase") then            
+	if cht:match("ComingSoon") then
+  elseif cht:match(";mafbase") then            
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Pro/main/Test", true))();
-
   elseif cht:match(";trap") then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Test-Again/main/Test%20Again", true))();
-
   elseif cht:match(";infmoney") then   
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Inf-Money-Gang-Up-People/main/Gang%20Up", true))();
-
   elseif cht:match(";uninfmoney") then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Uninfmoney/main/Uninfmoney", true))();
-
   elseif cht:match(";infjump") then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Inf-Jump/main/Inf%20Jump", true))();
-
   elseif cht:match(";credits") then  
 
-game:GetService("StarterGui"):SetCore("SendNotification",{
-
-    Title = "Credits";
-
-    Text = "Made By Viper BG Subcribe To Him For More Scripts";
-
-    Duration = 15;
-
-})
-
-	end
-
-end)
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Inf-Jump/main/Inf%20Jump", true))();                                                
   elseif cht:match(";cmds") then
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-
     Title = "Commands";
-
     Text = ";mafbase ;trap ;infmoney ;uninfmoney ;infjump ;credits";
-
     Duration = 20;
-
 })
-
 	end
-
 end)
 
+
 game:GetService("StarterGui"):SetCore("SendNotification",{
-
     Title = "Notification";
-
     Text = "Type ;cmds to see your command";
-
     Duration = 10;
-
 })
