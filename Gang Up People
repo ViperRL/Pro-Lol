@@ -25,7 +25,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Uninfmoney/ma
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Inf-Jump/main/Inf%20Jump", true))();
   elseif cht:match(";credits") then  
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Inf-Jump/main/Inf%20Jump", true))();                                                
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ViperRL/Credits/main/Credits", true))();                                                
   elseif cht:match(";cmds") then
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
